@@ -36,7 +36,7 @@ Use chosen compiler or built in IDE to compile the source code.
 **3. Run the application server:**
 
 ```
-$ java /server/Main.java
+$ java src/server/Main.java
 ```
 ## Usage
 
@@ -44,7 +44,7 @@ Make sure the server instance is running.
 Every request needs a new instance of the client application so the first step is to run the client.
 
 ```
-$ java /client/Main.java
+$ java src/client/Main.java
 ```
 
 Use command line interface to build the request. You will be guided by prompts.
@@ -90,7 +90,7 @@ The request was sent.
 
 
 ## Project status
-As in every project there are always some more things to do or to refactor.
+As in every project there are always some improvements to be done.
 
 List of known things ToDo:
 * Request validation
